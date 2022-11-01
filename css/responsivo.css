@@ -1,0 +1,118 @@
+@media screen and (min-width: 768px) {
+    .chamada__texto {
+        max-width: 600px;
+    }
+
+    .cartao {
+        max-width: 400px;
+    }
+
+    .institucional__contato-telefone {
+        line-height: normal;
+        display: inline-block;
+    }
+
+    .institucional__contato-email {
+        color: var(--fonte-link);
+        text-decoration: underline;
+        display: inline-block;
+    }
+
+    .institucional__video {
+        width: 100%;
+
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .cabecalho {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-bottom: transparent;
+        font-size: 17px;
+    }
+
+    .chamada {
+        background-image: url(/img/bg-intro.jpg);
+        background-size: cover;
+
+    }
+    .chamada__titulo{
+        max-width: 700px;
+        font-size: 3.2rem;
+    }
+    .chamada__Texto{
+        font-size: 1.4rem;
+
+    }
+    .chamada__botão{
+        font-size: 1rem;
+    }
+
+    .painel__img{
+        max-width: 600px;
+    }
+
+    .planos__cartoes{
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .flex__desktop{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        box-sizing: border-box;
+        width: 100%;
+        
+
+    }
+    .institucional__texto{
+        text-align: left;
+    }
+
+    .institucional__video{
+        width: 375px;
+    }
+    .rodape{
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+
+    .rodape__flex{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+  
+
+    .rodape__navegacao{
+        flex-direction: row;
+        display: flex;
+        justify-self: flex-start;
+        align-self: flex-start;
+        gap: 1rem;
+        width: 100%;
+    }    
+    
+    .sobre{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 2rem;
+        text-align: start;
+        
+        
+    }
+
+    .sobre__conteudo{
+        text-align: left
+    }
+
+
+}
